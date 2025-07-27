@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+main{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+
+main picture{
+    position: absolute;
+    width: 278px;
+    height: 293px;
+}
+
+section{
+    margin-left: 90px;
+    padding-left: 200px;
+    padding-right: 80px;
+
+    width: 365px;
+    height: 347px;
+    background-color: #FCFCFC;
+
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+section h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+section div{
+    width: 390px;
+    
+}
+
+section div h2{
+    font-weight: 500;
+    font-size: 17px;
+    display: inline;
+}
+
+.click:hover{
+    cursor: pointer;
+    opacity: .5;
+    transform: translateY(-2px) scale(1.005);
+    
+    transition: .3s;
+
+}
+
+section div img{
+    position: relative;
+    margin-left: 50px;
+}
+
+
+p{
+    width: 347px;
+    height: 54px;
+
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.displayNone{
+    display: none;
+}
